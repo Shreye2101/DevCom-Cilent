@@ -216,7 +216,7 @@ function Home() {
             <div className="bg-gradient-to-r from-rose-500 to-pink-500 text-primary-content grid place-content-center text-9xl font-black"
               style={{ backgroundColor: "yellow" }}
             >
-             MADE BY V.P YADAV
+             MADE BY ANTRIKSH
             </div>
           </div>
           <div className="diff-item-2">
