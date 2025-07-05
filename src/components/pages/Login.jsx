@@ -9,8 +9,8 @@ const cookieExpairy = 1;
 
 const Login = () => {
   const [formData, setFormData] = useState({
-    email: "vp@gmail.com",
-    password: "123456",
+    email: "",
+    password: "",
   });
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -44,6 +44,7 @@ const Login = () => {
                 <span className="label-text">Email</span>
               </label>
               <input
+               name="email"
                 value={formData.email}
                 type="email"
                 placeholder="Enter your email"
@@ -58,6 +59,7 @@ const Login = () => {
                 <span className="label-text">Password</span>
               </label>
               <input
+                name="password"
                 value={formData.password}
                 type="password"
                 placeholder="Enter your password"
